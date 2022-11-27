@@ -11,7 +11,7 @@ def image_generator(word_toimage):
     data={
         'text': word_toimage,
     },
-    headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
+    headers={'api-key': '6d0a5321-5e74-4a0a-80e1-fc6a530846f5'}
 )
     #st.write(r.json())
     return(r.json()['output_url'])
